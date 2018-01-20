@@ -4,17 +4,14 @@ import javax.swing.JTabbedPane;
 
 public class P107_Srivastava_Tab extends JTabbedPane{
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 5L;
 
 	public P107_Srivastava_Tab() {
-		add("Panel1", new Panel_1());
-		add("Panel1", new Panel_2());
-		add("Panel1", new Panel_3());
-		add("Panel1", new Panel_4());
-		add("Panel1", new Panel_5());
+		
+		addTab("Tab 1", new PanelBase_1());
+		
+		addTab("Tab 2", new PanelBase_2());
+	    
 	}
 }
 
